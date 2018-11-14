@@ -1,0 +1,13 @@
+{
+  "editor": "vim",
+  "highlight": true,
+  "default_minute": 0,
+  "tagsymbols": "@",
+  "journals": {
+    "default": "/home/sams-notes/journal.txt"
+  },
+  "timeformat": "%Y-%m-%d %H:%M",
+  "linewrap": 79,
+  "encrypt": false,
+  "default_hour": 9
+}

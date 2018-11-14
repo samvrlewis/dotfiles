@@ -21,6 +21,14 @@ export HISTFILESIZE=100000               # big big history
 alias direxplorer='nautilus -s .'
 alias op='xdg-open'
 
+# alias for doing git ops on the dotfiles
+alias config='/usr/bin/git --git-dir=$HOME/.mycfg/ --work-tree=$HOME'
+
+
+
+
+# Functions
+
 function git-co-recent {
         while getopts "hn:" opt; do
         case $opt in

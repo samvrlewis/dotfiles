@@ -1,5 +1,7 @@
 {
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
-    "workbench.colorTheme": "Atom One Dark"
+    "workbench.colorTheme": "Atom One Dark",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line"
 }

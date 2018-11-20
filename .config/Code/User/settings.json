@@ -3,5 +3,6 @@
     "editor.renderWhitespace": "all",
     "workbench.colorTheme": "Atom One Dark",
     "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line"
+    "gitlens.hovers.currentLine.over": "line",
+    "window.zoomLevel": -1
 }

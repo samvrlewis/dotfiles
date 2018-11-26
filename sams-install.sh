@@ -6,10 +6,10 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # Install packages
-sudo dnf install code tmux htop vim cmake make the_silver_searcher
+sudo dnf install code tmux htop vim cmake make the_silver_searcher tldr
 
 # Install packages for dev
-sudo dnf install boost-static ffmpeg ffmpeg-devel gtk2-devel gcc-c++ openssl-devel
+sudo dnf install boost-static ffmpeg ffmpeg-devel gtk2-devel gcc-c++ openssl-devel libcurl-devel
 
 # Some more dev packages
 sudo dnf install docker

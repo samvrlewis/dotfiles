@@ -62,7 +62,7 @@ function git-co-recent {
         git checkout "$d"
 }
 
-
+alias watch_sync='watch grep -e Dirty: -e Writeback: /proc/meminfo'
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=

@@ -4,7 +4,7 @@
   "default_minute": 0,
   "tagsymbols": "@",
   "journals": {
-    "default": "/home/sam/sam-notes/journal.md"
+    "default": "/home/sam/sam-stuff/journal.md"
   },
   "timeformat": "%Y-%m-%d %H:%M",
   "linewrap": 79,

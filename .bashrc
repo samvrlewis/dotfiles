@@ -24,6 +24,8 @@ alias op='xdg-open'
 # alias for doing git ops on the dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.mycfg/ --work-tree=$HOME'
 
+#add command to watch usb write progress
+alias writeback_progress='watch grep -e Dirty: -e Writeback: /proc/meminfo'
 
 
 

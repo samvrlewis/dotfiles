@@ -160,3 +160,10 @@ function git-co-recent {
 
         git checkout "$d"
 }
+
+export PATH="$PATH:$HOME/.dotnet:$HOME/bin:"
+export GOPATH="$HOME/go/"
+export CGO_ENABLED=0
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+

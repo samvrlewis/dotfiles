@@ -1,10 +1,10 @@
 {
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
-    "workbench.colorTheme": "Atom One Dark",
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "window.zoomLevel": -1,
+    //"editor.rulers": [72,120],
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -89,5 +89,12 @@
     "journal.tpl-memo": "- MEMO (${d:LT}):  ${input} ",
     "journal.dev": false,
     "vscode-journal-view.debug": true,
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "workbench.sideBar.location": "left",
+    "editor.fontSize": 12,
+    "go.formatTool": "goimports",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[go]": {}
 }

@@ -127,6 +127,9 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 #add command to watch usb write progress
 alias writeback_progress='watch grep -e Dirty: -e Writeback: /proc/meminfo'
 
+# i always accidentally reboot my host when I meant to reboot the machine I'm sshed to
+reboot () { echo 'Reboot? (y/n)' && read x && [[ "$x" == "y" ]] && /sbin/reboot; }
+
 # Functions
 function git-co-recent {
         while getopts "hn:" opt; do
@@ -166,4 +169,6 @@ export GOPATH="$HOME/go/"
 export CGO_ENABLED=0
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+
 

@@ -247,7 +247,7 @@ unbind C-a
 set-option -g prefix2 C-q
 bind-key C-q send-prefix -2
 
-bind \ split-window -h
+bind \\ split-window -h
 bind - split-window -v
 unbind '"'
 unbind %
